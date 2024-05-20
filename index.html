@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/Imagine.loader.js"></script>
+    <script src="Build/Build.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,11 +73,11 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/8133a4f7bf5ad4654b0c844d559f1796.data",
-                    frameworkUrl: "Build/a6f2852b840b228ba18227789be192e5.js",
-                    codeUrl: "Build/50dbb3c725ea9cacf42e65dd2ac35fd0.wasm",
+                    dataUrl: "Build/Build.data",
+                    frameworkUrl: "Build/Build.framework.js",
+                    codeUrl: "Build/Build.wasm",
                     streamingAssetsUrl: "StreamingAssets",
-                    companyName: "Pixelab by Superpixel",
+                    companyName: "DefaultCompany",
                     productName: "SPX_AR_Bank_Indonesia",
                     productVersion: "0.1",
                     //webglContextAttributes: { "preserveDrawingBuffer": true },
